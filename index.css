@@ -1,5 +1,5 @@
-body{
-
+html{
+	scroll-behavior: smooth;
 }
 
 .navbar {
@@ -36,7 +36,6 @@ input[type="email"]:hover{
 	background: #fff;
 }
 
-::placeholder
-{
-	color: #000;
-};
+input::placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+}
