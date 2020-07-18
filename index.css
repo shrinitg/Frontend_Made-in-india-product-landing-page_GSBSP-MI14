@@ -1,0 +1,42 @@
+body{
+
+}
+
+.navbar {
+	font-size: 20px;
+	background-color: #2a135c;
+}
+
+
+.navbar .navbar-collapse .navbar-nav .nav-link:hover {
+	background-color: #000;
+	text-decoration: underline;
+}
+
+input[type="text"]{
+	background:transparent;
+	border-top: 20px #000;
+	border-right: 20px #000;
+	border-left: 20px #000;
+
+}
+input[type="email"]{
+	background:transparent;
+	border-top: 20px #000;
+	border-right: 20px #000;
+	border-left: 20px #000
+}
+
+input[type="text"]:hover{
+	color: #000;
+	background: #fff;
+}
+input[type="email"]:hover{
+	color: #000;
+	background: #fff;
+}
+
+::placeholder
+{
+	color: #000;
+};
